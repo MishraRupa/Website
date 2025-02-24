@@ -1,0 +1,102 @@
+.navbar-nav{
+    margin-left: 15%;
+
+}
+
+
+.background-section img {
+    display: none; /* Hide img tag since we're using background-image */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-section {
+    width: 100vw;
+    height: 60vh;
+    background: url('https://www.shutterstock.com/image-photo/office-conference-room-meeting-diverse-600nw-2136488967.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.overlay {
+    /* background: rgba(0, 0, 0, 0.5); Semi-transparent black overlay */
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: rgb(71, 71, 224);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(71, 71, 224);
+}
+.ms-4 {
+    margin-left: 10rem !important;
+}
+.bi-card-list{
+    color: rgb(71, 71, 224);
+    font-size: 37px;
+
+}
+.bi-laptop{
+    color: rgb(71, 71, 224);
+    font-size: 37px;
+}
+.bi-trophy{
+    color: rgb(71, 71, 224);
+    font-size: 37px;
+}
+.bi-archive{
+    color: rgb(71, 71, 224);
+    font-size: 37px;
+}
+.icon-hover {
+    display: inline-block; /* Ensure it can be transformed */
+    transition: transform 0.3s ease-in-out;
+}
+.icon-hover:hover {
+    transform: translateY(-5px); /* Moves up on hover */
+}
+.para{
+    color: gray;
+}
+.links > a{
+    color: gray;
+    padding-left: 31px;
+    font-style: none;
+}
+
+.container{
+    margin-top: 79px;
+    margin-left: 30%;
+}
+
+
+
